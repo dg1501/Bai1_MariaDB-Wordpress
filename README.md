@@ -82,7 +82,7 @@ cd wordpress-docker
 
 Site Title: My Website
 
-Username: admin
+Username: Nguyễn Đức Dương
 
 Password: (tự đặt)
 
@@ -95,6 +95,16 @@ Email: (tùy)
 🎯 KẾT QUẢ
 
 <img width="1538" height="766" alt="{EE5E022C-41E4-4934-A69E-EA6F346580D7}" src="https://github.com/user-attachments/assets/14d23382-b0b3-4f8f-952e-663c634ec928" /></p>
+
+---
+
+## 8. ĐĂNG NHẬP ADMIN
+
+- Sau khi cài xong: truy cập `http://<IP>:8080/wp-admin` -> Đăng nhập bằng tài khoản vừa tạo.
+
+<img width="1549" height="740" alt="{BC5B9FDB-1FC3-48CA-A678-E9249B791BA5}" src="https://github.com/user-attachments/assets/e9866b61-e3e1-4482-9ff3-a8768c917c1a" /></p>
+
+
 
 
 
