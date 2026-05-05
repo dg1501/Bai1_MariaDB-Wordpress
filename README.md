@@ -104,6 +104,54 @@ Email: (tùy)
 
 <img width="1549" height="740" alt="{BC5B9FDB-1FC3-48CA-A678-E9249B791BA5}" src="https://github.com/user-attachments/assets/e9866b61-e3e1-4482-9ff3-a8768c917c1a" /></p>
 
+👉 KẾT QUẢ: GIAO DIỆN WORDPRESS
+
+<img width="1920" height="1030" alt="image" src="https://github.com/user-attachments/assets/52599bbf-f7fc-415c-b56c-cce12d76e7fc" /></P>
+
+---
+
+## 9. CÀI PLUGIN 
+
+- Plugins → Add Plugin
+
+<img width="1545" height="750" alt="image" src="https://github.com/user-attachments/assets/2e1873fc-bc08-439c-8659-18f24e400fe5" /></p>
+
+- Cài plugin login: Trong bài tập này em sẽ sử dụng Elementor. Đây là plugin "quốc dân" giúp bạn thiết kế giao diện website bằng cách kéo thả cực kỳ trực quan.
+
+<img width="1548" height="746" alt="{25B7C6C3-3A31-4AA5-B24A-4C86D2113ED6}" src="https://github.com/user-attachments/assets/b28dc927-8608-46b7-88cb-1313475e4792" /></p>
+
+- Nhấn nút **Install Now** tại plugin tên là *Elementor Website Builder* -> Sau khi cài xong, nhấn **Activate**.
+
+<img width="1542" height="741" alt="{6A3E5F05-4FD4-4AAE-9871-A5BEDF3A7575}" src="https://github.com/user-attachments/assets/4f25356d-fb76-4274-8859-9d15cd8aa8a1" /></p>
+
+👉 KẾT QUẢ: 
+
+<img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/a282e3c1-b5fd-42a3-8a84-107fb5ea53ed" /></p>
+
+- Tạo trang mới: Tiến hành kéo thả các Widget (Công cụ)
+
+<img width="1920" height="1026" alt="{9CD82189-0FE6-43D9-A384-40502A486020}" src="https://github.com/user-attachments/assets/ccd5b814-578d-4baa-a368-09cdfd617c19" /></p>
+
+✔️ Public
+
+- Set làm trang chủ: Settings → Reading → A static page
+
+<img width="1541" height="747" alt="{7C836A96-5AB7-4D2F-836E-E0D8E4AA031A}" src="https://github.com/user-attachments/assets/1069616b-5d7e-4ea6-abe1-f04aff03b319" /></p>
+
+---
+
+## 10. KIỂM TRA
+
+`Truy cập: 
+
+<img width="1918" height="1027" alt="{77A06843-4410-4079-B687-4CB82A367D37}" src="https://github.com/user-attachments/assets/a0033d36-5ec1-4044-8507-b377611008be" /></p>
+
+
+
+
+
+
+
 
 
 
