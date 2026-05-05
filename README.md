@@ -54,6 +54,50 @@ cd wordpress-docker
 
 <img width="999" height="706" alt="{5C6AA715-6795-4CF9-BC47-DE55AA5C5157}" src="https://github.com/user-attachments/assets/24fd0219-9317-4526-9bcf-816ee8d07b15" /></P>
 
+🚀 Nếu thấy 2 container: **Mariadb** và **Wordpress** là đã thành công.
+
+---
+
+## 6. TRUY CẬP WEBSITE 
+
+- Lấy IP ubuntu
+
+`ip a`
+
+<img width="1000" height="706" alt="image" src="https://github.com/user-attachments/assets/d9d3846b-617b-4a69-b39c-fa32217d3093" /></p>
+
+- Truy cập: `http://172.28.35.87:8080`
+
+<img width="1920" height="1080" alt="{9C0BDBD4-272E-4EE2-B3EF-52920027C8F1}" src="https://github.com/user-attachments/assets/a71abeca-db72-4dfb-a6f3-70c807f66aef" /></p>
+
+---
+
+## 7. CÀI ĐẶT WORDPRESS
+
+- Khi mở web sẽ thấy giao diện cài đặt.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2c7c358d-a1bf-4fcb-b147-f0d2f5a32456" /></p>
+
+Điền:
+
+Site Title: My Website
+
+Username: admin
+
+Password: (tự đặt)
+
+Email: (tùy)
+
+👉 Đây chính là login WordPress
+
+<img width="1920" height="1027" alt="{3678C901-BD8F-45AE-BD73-C77CC9DE8D3C}" src="https://github.com/user-attachments/assets/6e11f09c-cae5-4a43-afb6-6c067cb7f641" /></p>
+
+🎯 KẾT QUẢ
+
+<img width="1538" height="766" alt="{EE5E022C-41E4-4934-A69E-EA6F346580D7}" src="https://github.com/user-attachments/assets/14d23382-b0b3-4f8f-952e-663c634ec928" /></p>
+
+
+
 
 
 
