@@ -146,10 +146,25 @@ Email: (tùy)
 
 <img width="1918" height="1027" alt="{77A06843-4410-4079-B687-4CB82A367D37}" src="https://github.com/user-attachments/assets/a0033d36-5ec1-4044-8507-b377611008be" /></p>
 
+---
 
+## 11. KIỂM TRA MARIADB
 
+- Vào MariaDB sử dụng lệnh sau:
 
+`sudo docker exec -it mariadb_container mariadb -u wp_user -pwp_pass wordpress`
 
+- Sau khi vào thì ta có thể thử 1 số lệnh để check
+
+`SHOW TABLES; `
+
+<img width="1087" height="717" alt="{B79F15AF-BEF2-43BA-B47A-668CD798CA8E}" src="https://github.com/user-attachments/assets/14ca4c92-d0b8-425d-bdd9-a74937022dac" />
+
+- Xem danh sách các trang/bài viết bạn đã tạo (để thấy cái "Elementor #7" của bạn nằm trong này):
+
+`SELECT post_title, post_status FROM wp_posts WHERE post_type='page';`
+
+<img width="1194" height="758" alt="{E66624C4-E249-49D5-9663-17434C82B146}" src="https://github.com/user-attachments/assets/063b108e-c64d-4e7e-b434-af80f1faadb9" />
 
 
 
