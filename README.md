@@ -166,6 +166,13 @@ Email: (tùy)
 
 <img width="1194" height="758" alt="{E66624C4-E249-49D5-9663-17434C82B146}" src="https://github.com/user-attachments/assets/063b108e-c64d-4e7e-b434-af80f1faadb9" />
 
+- Xem thông tin user admin của bạn:
+
+`SELECT user_login, user_email FROM wp_users;`
+
+<img width="1080" height="731" alt="{F6A39398-3D25-422D-99B0-0FA982BE9D38}" src="https://github.com/user-attachments/assets/5d5fbb22-3f47-4dc5-bacb-387e9b5197a0" /></P>
+
+
 
 
 
