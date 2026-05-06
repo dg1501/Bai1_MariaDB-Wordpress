@@ -19,10 +19,9 @@
 
 ## 2. TẠO PROJECT
 
-`
-mkdir wordpress-docker
-cd wordpress-docker
-`
+`mkdir wordpress-docker`
+
+`cd wordpress-docker`
 
 <img width="1000" height="689" alt="{8BA11C69-CDFD-4924-9951-6B42061B89ED}" src="https://github.com/user-attachments/assets/0e78aa4b-ae97-4b56-91a2-6e2d1acbd70e" /></p>
 
