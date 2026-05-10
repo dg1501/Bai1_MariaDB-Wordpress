@@ -141,9 +141,13 @@ Email: (tùy)
 
 ## 10. KIỂM TRA
 
-`Truy cập: 
+- Truy cập: `http://<IP_UBUNTU>:8080/wp-admin`
 
 <img width="1918" height="1027" alt="{77A06843-4410-4079-B687-4CB82A367D37}" src="https://github.com/user-attachments/assets/a0033d36-5ec1-4044-8507-b377611008be" /></p>
+
+<img width="1920" height="1019" alt="{0615D502-B204-450A-B9C4-21A45EFEBDB8}" src="https://github.com/user-attachments/assets/2dd277e6-152c-4131-80c8-34a1c75149bd" /></p>
+
+<img width="1920" height="1018" alt="{FA7EEFF3-0397-4A45-9B3E-04875559138D}" src="https://github.com/user-attachments/assets/b4ea5c5d-40eb-43be-b754-04ee9eef0409" /></p>
 
 ---
 
