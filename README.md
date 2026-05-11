@@ -155,11 +155,6 @@ Email: (tùy)
 
 <img width="1920" height="1025" alt="{0C46D5BE-314A-4495-8849-3F231EE55871}" src="https://github.com/user-attachments/assets/5cc510a2-9c66-4430-ba59-9a6e2e3a194d" /></p>
 
-
-
-
-
-
 ---
 
 ## 11. KIỂM TRA MARIADB
@@ -185,6 +180,74 @@ Email: (tùy)
 `SELECT user_login, user_email FROM wp_users;`
 
 <img width="1080" height="731" alt="{F6A39398-3D25-422D-99B0-0FA982BE9D38}" src="https://github.com/user-attachments/assets/5d5fbb22-3f47-4dc5-bacb-387e9b5197a0" /></P>
+
+---
+
+## 12. PUBLIC WEB 
+
+- Bước 1: Login Cloudflare `cloudflared tunnel login ` -> Sau khi truy cập đường dẫn sẽ hiển thị cửa sổ claudfare -> tại đây ta chọn **Authrize** để đăng nhập
+
+<img width="1400" height="741" alt="image" src="https://github.com/user-attachments/assets/2bcee916-e8c6-4f40-893b-1ebf80f63ed5" /></p>
+
+<img width="1163" height="613" alt="{66FDB182-ED93-49A2-9B89-FD4DD4B1DBFB}" src="https://github.com/user-attachments/assets/00d1cffd-d220-46f8-a25c-54b0aa94721f" /></p>
+
+✔ Sau khi click vào **Authorize** sẽ hiện thông báo Success -> Đồng thời trong Ubuntu cũng tự động sinh ra file **.pem**
+
+<img width="1920" height="1027" alt="{B4F53AC3-E388-44D6-8915-07F87957A4C0}" src="https://github.com/user-attachments/assets/929648ba-7540-49db-9277-ca128052992b" /></p>
+
+<img width="1129" height="719" alt="{4FD3631D-095C-45AB-8F2F-F1AFF54ED658}" src="https://github.com/user-attachments/assets/85a3959e-47bb-4522-9ccd-5c528d897ab2" /></p>
+
+
+- Bước 2: Thêm cloudflared service `mkdir cloudflare`
+
+<img width="1544" height="590" alt="{48874CBE-15E5-47DF-9B73-5DCA9B4EDA77}" src="https://github.com/user-attachments/assets/581ad2ef-6b0b-4691-a8c8-f21844543941" /></p>
+
+- Bước 3: Tạo tunnel `cloudflared tunnel create wordpress-duong`
+
+<img width="1268" height="744" alt="{83236AA0-B6BE-4AED-A050-E97AB5B00C09}" src="https://github.com/user-attachments/assets/d060732c-7981-4bf4-9d94-efe2febfefb2" /></P>
+
+- Bước 5: Tạo config `nano cloudflare/config.yml`
+
+<img width="1362" height="873" alt="{D8AA6F04-0D5F-4727-A79F-AD9D6302C52E}" src="https://github.com/user-attachments/assets/e2d1621d-908a-458f-8e6f-bb35b553032c" /></p>
+
+- Bước 6: Thêm service claudfare
+
+<img width="1142" height="663" alt="{94531F32-A851-4A3D-898A-09745355A0AA}" src="https://github.com/user-attachments/assets/892080b5-0e00-49f7-a983-26a0e798743f" /></p>
+
+- Bước 7: Tạo DNS
+
+`
+docker run --rm -it \
+-v ~/.cloudflared:/home/nonroot/.cloudflared \
+cloudflare/cloudflared:latest \
+tunnel --origincert /home/nonroot/.cloudflared/cert.pem route dns 3166e182-f17b-4f59-991d-40e033c46fac wp.ducduong.id.vn
+`
+
+<img width="1228" height="839" alt="{A9CA7AB8-1386-4E97-955D-E3E526169485}" src="https://github.com/user-attachments/assets/baa5ff51-7050-4caf-b39e-59b9ed8bad32" /></p>
+
+- Bước 8: Chạy tunnel
+
+`
+docker run --rm -it \
+  -v ~/.cloudflared:/home/nonroot/.cloudflared \
+  cloudflare/cloudflared:latest \
+  tunnel --config /home/nonroot/.cloudflared/config.yml run
+`
+
+<img width="1222" height="837" alt="{4F0161C6-1D11-488B-92F2-A2625B79E03F}" src="https://github.com/user-attachments/assets/b5ae2066-4d64-4c0b-bd96-4f7d6b54f85d" /></p>
+
+---
+
+## 13. KIỂM TRA
+
+👉 Truy cập  `http://wp.ducduong.id.vn `
+
+
+
+
+
+
+
 
 
 
