@@ -149,6 +149,17 @@ Email: (tùy)
 
 <img width="1920" height="1018" alt="{FA7EEFF3-0397-4A45-9B3E-04875559138D}" src="https://github.com/user-attachments/assets/b4ea5c5d-40eb-43be-b754-04ee9eef0409" /></p>
 
+<img width="1920" height="1019" alt="{E2A0B92A-70CB-4CD0-812D-BB7F8801260E}" src="https://github.com/user-attachments/assets/5dc86fb4-75f4-40ab-81ce-d0bec1f9083b" /></p>
+
+<img width="1920" height="1022" alt="{B8729AF9-9B3C-41B0-886D-51D442BB53FF}" src="https://github.com/user-attachments/assets/72d58a3e-61da-4588-9500-17f3370e729d" /></p>
+
+<img width="1920" height="1025" alt="{0C46D5BE-314A-4495-8849-3F231EE55871}" src="https://github.com/user-attachments/assets/5cc510a2-9c66-4430-ba59-9a6e2e3a194d" /></p>
+
+
+
+
+
+
 ---
 
 ## 11. KIỂM TRA MARIADB
