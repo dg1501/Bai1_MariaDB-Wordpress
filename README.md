@@ -129,7 +129,7 @@ Email: (tùy)
 
 - Tạo trang mới: Tiến hành kéo thả các Widget (Công cụ)
 
-<img width="1920" height="1026" alt="{9CD82189-0FE6-43D9-A384-40502A486020}" src="https://github.com/user-attachments/assets/ccd5b814-578d-4baa-a368-09cdfd617c19" /></p>
+<img width="1290" height="700" alt="{99D3BF3C-1AAF-4714-8D14-10425E5930D6}" src="https://github.com/user-attachments/assets/3c718933-a4b4-4fe1-b8a6-5eb26269dc2d" /></p>
 
 ✔️ Public
 
@@ -141,13 +141,17 @@ Email: (tùy)
 
 ## 10. KIỂM TRA
 
-- Truy cập: `http://<IP_UBUNTU>:8080/wp-admin`
-
-<img width="1918" height="1027" alt="{77A06843-4410-4079-B687-4CB82A367D37}" src="https://github.com/user-attachments/assets/a0033d36-5ec1-4044-8507-b377611008be" /></p>
+- Truy cập: `http://<IP_UBUNTU>:8080`
 
 <img width="1920" height="1019" alt="{0615D502-B204-450A-B9C4-21A45EFEBDB8}" src="https://github.com/user-attachments/assets/2dd277e6-152c-4131-80c8-34a1c75149bd" /></p>
 
+- Tiến hành tạo bài viết ** Giới thiệu bản thân`
+
+- Bao gồm ( Họ tên, Lớp, MSSV, Sở thích, Bài nhạc yêu thích )
+
 <img width="1920" height="1018" alt="{FA7EEFF3-0397-4A45-9B3E-04875559138D}" src="https://github.com/user-attachments/assets/b4ea5c5d-40eb-43be-b754-04ee9eef0409" /></p>
+
+- Tạo bài viết về nghành học yêu thích
 
 <img width="1920" height="1019" alt="{E2A0B92A-70CB-4CD0-812D-BB7F8801260E}" src="https://github.com/user-attachments/assets/5dc86fb4-75f4-40ab-81ce-d0bec1f9083b" /></p>
 
@@ -245,6 +249,8 @@ docker run --rm -it \
 - Bài viết Giới thiệu bản thân
 
 <img width="1920" height="1024" alt="{31587753-1E98-4B9C-8F4D-404684B60725}" src="https://github.com/user-attachments/assets/b6b5cb77-3081-499c-b567-322f0b37c9bb" /></p>
+
+<img width="1920" height="1025" alt="{06C6332F-B2D2-4DAF-8CC9-42538E42096D}" src="https://github.com/user-attachments/assets/b94551b0-03bc-46ea-9359-14474afddab7" /></p>
 
 - Bài viết Giới thiệu nghành học yêu thích
 
