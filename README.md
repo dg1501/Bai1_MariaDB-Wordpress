@@ -242,6 +242,26 @@ docker run --rm -it \
 
 👉 Truy cập  `http://wp.ducduong.id.vn `
 
+- Bài viết Giới thiệu bản thân
+
+<img width="1920" height="1024" alt="{31587753-1E98-4B9C-8F4D-404684B60725}" src="https://github.com/user-attachments/assets/b6b5cb77-3081-499c-b567-322f0b37c9bb" /></p>
+
+- Bài viết Giới thiệu nghành học yêu thích
+
+<img width="1920" height="1022" alt="{92FA1F12-B6AD-4C77-BCBA-8F1811BC9835}" src="https://github.com/user-attachments/assets/1baa4737-8f01-40ab-9e34-753060eaecb3" /></p>
+
+<img width="1920" height="1015" alt="{5CB6E49F-B145-47F9-ACC9-2DBF9B153B78}" src="https://github.com/user-attachments/assets/f47f9211-9dbf-45ed-9d45-24eb14a0a229" /></p>
+
+- Video giới thiệu nghành học
+
+<img width="1920" height="1012" alt="{C2F02C0C-92B8-4DBF-8A75-82AB915104FA}" src="https://github.com/user-attachments/assets/e39d34ca-b964-4285-967b-b8c2ece25bb2" /></p>
+
+
+
+
+
+
+
 
 
 
