@@ -262,7 +262,31 @@ docker run --rm -it \
 
 <img width="1920" height="1012" alt="{C2F02C0C-92B8-4DBF-8A75-82AB915104FA}" src="https://github.com/user-attachments/assets/e39d34ca-b964-4285-967b-b8c2ece25bb2" /></p>
 
+## 14. NHẬN XÉT
 
+- Sau quá trình triển khai dự án **huek58.io.vn** trên nền tảng MariaDB và WordPress thông qua Docker, tôi có một số nhận xét sau về việc sử dụng mã nguồn mở này:
+
+### 14.1. Về công sức triển khai (Effort)
+* **Tiết kiệm thời gian:** Thay vì phải lập trình web từ đầu bằng code thuần, WordPress giúp dựng khung website hoàn chỉnh chỉ trong vài phút. 
+* **Tận dụng hệ sinh thái:** Việc sử dụng các công cụ như **Elementor** giúp việc thiết kế giao diện trở nên trực quan (kéo-thả), không đòi hỏi kiến thức chuyên sâu về HTML/CSS.
+* **Hỗ trợ Docker:** Việc đóng gói vào Docker giúp quy trình triển khai lặp lại (reproducible) rất nhanh chóng, dễ dàng di chuyển giữa các môi trường (Local -> VPS).
+
+### 14.2. Độ khó/dễ trong sử dụng (Usability)
+* **Thân thiện với người dùng:** Giao diện quản trị (Dashboard) trực quan, hỗ trợ tiếng Việt hoàn hảo, phù hợp cho cả người không chuyên và lập trình viên.
+* **Tính tùy biến cao:** Với hàng ngàn Plugin và Theme (miễn phí lẫn trả phí), WordPress có thể biến hóa từ một blog cá nhân thành trang thương mại điện tử phức tạp.
+* **Cộng đồng lớn:** Bất kỳ lỗi nào phát sinh đều có thể tìm thấy lời giải trên các diễn đàn công nghệ hoặc tài liệu chính thống.
+
+### 14.3. Mức độ tiêu tốn tài nguyên (Resources)
+So với các mã nguồn tĩnh (Static Site), WordPress kết hợp với MariaDB yêu cầu tài nguyên máy chủ nhất định:
+* **RAM:** WordPress chạy trên nền PHP và cần MariaDB để truy vấn dữ liệu. Mức tiêu thụ RAM trung bình khoảng **512MB - 1GB** cho một trang web nhỏ. Nếu cài nhiều plugin nặng như Elementor, RAM có thể cần tối thiểu **2GB** để hoạt động mượt mà.
+* **CPU:** Khi có nhiều lượt truy cập đồng thời hoặc thực hiện chỉnh sửa bằng Elementor, CPU sẽ tăng cao do phải xử lý các tệp tin PHP và truy vấn cơ sở dữ liệu liên tục.
+* **Lưu trữ (Storage):** Dung lượng file source WordPress ban đầu khá nhẹ, nhưng sẽ tăng nhanh theo thời gian khi tải lên hình ảnh, video và dữ liệu database.
+
+### 14.4. Đánh giá tổng quan
+* **Ưu điểm:** Triển khai cực nhanh, chi phí vận hành thấp (mã nguồn miễn phí), tính năng mạnh mẽ và bảo mật tốt nếu được cập nhật thường xuyên.
+* **Nhược điểm:** Dễ bị tấn công nếu cài plugin không rõ nguồn gốc; yêu cầu máy chủ có cấu hình ổn định hơn so với web tĩnh; cần tối ưu (Caching) để đạt tốc độ tải trang tốt nhất.
+
+> **Kết luận:** WordPress là giải pháp tối ưu cho sinh viên và doanh nghiệp nhỏ muốn nhanh chóng có một website chuyên nghiệp mà vẫn đảm bảo tính linh hoạt và khả năng mở rộng trong tương lai.
 
 
 
