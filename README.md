@@ -244,6 +244,8 @@ docker run --rm -it \
 
 ## 13. KIỂM TRA
 
+### 13.1. KIỂM TRA TRÊN MÁY THẬT 
+
 👉 Truy cập  `http://wp.ducduong.id.vn `
 
 - Bài viết Giới thiệu bản thân
@@ -261,6 +263,12 @@ docker run --rm -it \
 - Video giới thiệu nghành học
 
 <img width="1920" height="1012" alt="{C2F02C0C-92B8-4DBF-8A75-82AB915104FA}" src="https://github.com/user-attachments/assets/e39d34ca-b964-4285-967b-b8c2ece25bb2" /></p>
+
+### KIỂM TRA TRÊN THIẾT BỊ KHÁC KHÔNG SỬ DỤNG WIFI
+
+<img width="870" height="1883" alt="tes1" src="https://github.com/user-attachments/assets/b3fbc352-6ec1-4828-ae39-8f31bf4341c5" /></p>
+
+<img width="870" height="1883" alt="tes2" src="https://github.com/user-attachments/assets/e3945ec5-872d-47b0-ac2e-64e7bdec6f92" /></p>
 
 ## 14. NHẬN XÉT
 
